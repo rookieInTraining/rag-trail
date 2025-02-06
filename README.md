@@ -1,0 +1,4 @@
+# My experiments with RAG
+Retrieval-Augmented Generation (RAG) is an AI approach that enhances text generation by integrating an external knowledge retrieval system. Instead of relying solely on a pre-trained model’s internal knowledge, RAG retrieves relevant documents from a database or knowledge base. These documents provide up-to-date, contextually relevant information, improving response accuracy and factual consistency. The model then generates text by combining retrieved data with its own capabilities. 
+
+RAG is particularly useful in scenarios requiring real-time knowledge, such as customer support, research assistance, and legal analysis. It reduces hallucinations by grounding responses in external sources. Common implementations include combining LLMs with vector databases like FAISS, Pinecone, or Weaviate. Fine-tuning is not always necessary, as retrieval augments the model dynamically.
